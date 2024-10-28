@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared style */
+
+.display-flex {
+    display: flex;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main>section {
+    margin-top: 150px;
+}
+
+.bg-black {
+    background: rgb(0, 0, 0);
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+}
+
+.btn-sec {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    background-color: black;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    margin-left: 10px;
+}
+
+
+
+
+/* nav related styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 130px 0px 130px;
+}
+
+.nav-title {
+    color: rgb(230, 83, 60);
+    font-size: 2.15rem;
+    font-weight: 800;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+}
+
+.nav-links {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    gap: 50px;
+    padding: 5px;
+    align-items: center;
+
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+#home-btn {
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    border-radius: 45px;
+    background: rgb(230, 83, 60);
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+/* banner container style */
+.bg-gray {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
+}
+
+.banner-container {
+    justify-content: center;
+    gap: 200px;
+
+}
+
+.banner-content {
+    max-width: 520px;
+    max-height: 440px;
+}
+
+.banner-title {
+    font-size: 4.85rem;
+    font-weight: 900;
+    color: white;
+}
+
+.p-des {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* ----------------------- */
+
+/* -----------------------*/
+
+.banner-image {
+    max-width: 350px;
+    max-height: 580px;
+}
+
+/* badges section start */
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.badge {
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+
+}
+
+.first-badge {
+    top: 50px;
+    right: 10px;
+    width: 206px;
+    height: 96px;
+    padding: 20px;
+    margin-right: -100px;
+    margin-top: 80px;
+
+}
+
+.text-1 {
+    margin-left: 5px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+
+.first-badge h4 {
+    margin-bottom: -20px;
+    margin-top: 1px;
+}
+
+.sec-badge {
+    width: 206px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin-top: -170px;
+    margin-left: -100px;
+}
+
+.badge-title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.circle-1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+}
+
+.text {
+
+    margin-top: -80px;
+}
+
+.text h6 {
+    margin-bottom: -15px;
+}
+
+
+/* end badges section */
+
+.btn-section {
+    margin-top: 20px;
+}
+
+/* change your section style */
+
+.change-content {
+    width: 671px;
+    height: 120px;
+    text-align: center;
+    margin: 150px auto;
+}
+
+.change-title {
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.chng-img-title {
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+}
+
+.img-card-container {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.img-card {
+    text-align: center;
+    width: 225px;
+    height: 265px;
+}
+
+/* run section style */
+.run-container {
+    max-width: 1060px;
+    max-height: 371px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    padding: 40px 30px;
+    margin-left: 90px;
+
+
+}
+
+.run-content {
+    width: 443px;
+    height: 116px;
+}
+
+
+.run-img img {
+    align-items: center;
+    border-radius: 8px;
+    max-width: 366px;
+    max-height: 312px;
+    margin-left: 220px;
+}
+
+/* BMI Calculator */
+
+.hero {
+    text-align: center;
+    padding: 40px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1rem;
+    color: rgb(170, 170, 170);
+    font-weight: 400;
+}
+
+/* Calculator Section */
+.calculator {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 40px;
+    background-color: rgb(34, 34, 34);
+}
+
+.chart,
+.form {
+    /* background-color: rgb(51, 51, 51); */
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px;
+}
+
+.chart h2,
+.form h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.chart p,
+.form p {
+    color: rgb(170, 170, 170);
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border: 1px solid rgb(68, 68, 68);
+    text-align: left;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Form Styling */
+form input,
+form select,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    font-size: 1em;
+
+}
+
+form button {
+    background-color: #ff5630;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #e04a26;
+}
+
+
+/* team section container */
+.trainers-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #111111;
+    border-radius: 10px;
+    margin: 100px;
+    margin-right: 120px;
+}
+
+.trainer-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.trainer-card img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    border-radius: 10px;
+}
+
+.trainer-card .info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    padding: 10px;
+    color: white;
+    text-align: left;
+}
+
+.trainer-card h3 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.trainer-card p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+
+
+
+
+
+/* footer section style */
+
+.footer-section {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 150px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 100px;
+    padding: 60px 100px;
+}
+
+.fit-title {
+    color: rgb(230, 83, 60);
+    font-size: 4.375rem;
+    font-weight: 800;
+    margin-top: -3px;
+
+}
+
+.get-started {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.none {
+    padding: 10px;
+    margin-left: -38px;
+    list-style: none;
+}
+
+/* responsive media query */
+
+/* mobile device */
+
+@media screen and (max-width:576px) {
+
+    body{
+       width: 90%;
+       height: 100%;
+    }
+
+    .navbar,
+    .nav-links,
+    .banner-container, 
+    .run-container {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        margin-left: 20px;
+        gap: -40px;
+        margin-bottom: -20px;
+    }
+
+    .banner-container {
+        gap: 400px;
+    }
+
+    .btn-section {
+        display: flex;
+    }
+
+    .first-badge{
+        margin-top: 10px;
+        margin-right: 0.2px;
+    }
+
+    .sec-badge{
+        margin-left: 5px;
+        margin-top: -350px;
+    }
+
+    .change-content{
+        width: 350px;
+    }
+
+    .img-card-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+    }
+
+.run-container{
+    width: 90%;
+    height: 300%;
+    margin-left: -5px;
+}
+
+.run-content{
+    padding-right: 60px;
+}
+
+.run-img{
+    margin-top: 200px;
+    margin-left: -220px;
+
+}
+
+.calculator{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.trainers-card-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.trainer-card img{
+    width: 100%;
+    height: 100%;
+}
+
+.footer-section{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.fit-footer, .get-started{
+    text-align: left;
+    margin-left: -60px;
+}
+
+
+}
